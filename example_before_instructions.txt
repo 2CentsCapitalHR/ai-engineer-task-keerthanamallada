@@ -1,0 +1,7 @@
+How to make a sample Word file (`example_before.docx`) quickly:
+1. Open Microsoft Word (or Google Docs).
+2. Paste this sample text into the document:
+   - Title: "Articles of Association"
+   - Body: "This document is the Articles of Association. The company may... The company may... The company may... Date:"
+3. Save as a Word file: File -> Save As -> choose format "Word Document (.docx)"
+4. Put that file into the project folder and then run `python app.py` and upload it in the Gradio UI.

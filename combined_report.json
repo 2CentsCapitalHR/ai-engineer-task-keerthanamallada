@@ -1,0 +1,29 @@
+{
+  "processed_count": 1,
+  "reports": [
+    {
+      "filename": "example_before.docx",
+      "process": "Unknown",
+      "document_type_detected": "Articles of Association",
+      "issues_found": [
+        {
+          "section": "Signatory",
+          "issue": "No obvious signature block or date found at end of document.",
+          "severity": "High",
+          "suggestion": "Add a signature block with printed name, signature, capacity and date.",
+          "citation": "ADGM Registration checklist",
+          "para_index": 2
+        },
+        {
+          "section": "Jurisdiction",
+          "issue": "Document never mentions 'ADGM' or 'Abu Dhabi Global Market'.",
+          "severity": "Medium",
+          "suggestion": "Confirm and add ADGM references where jurisdiction matters.",
+          "citation": "ADGM Companies Regulations 2020",
+          "para_index": null
+        }
+      ],
+      "reviewed_file": "reviewed_out\\example_before_reviewed_20250810160935.docx"
+    }
+  ]
+}
